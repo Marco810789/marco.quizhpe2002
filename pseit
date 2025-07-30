@@ -1,0 +1,89 @@
+index.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Introducción a PSeInt</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #003366;
+    }
+    .seccion {
+      background-color: #ffffff;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    code {
+      background-color: #e8e8e8;
+      padding: 4px 8px;
+      display: block;
+      margin-top: 10px;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+  <h1>Recurso Educativo Digital: Introducción a PSeInt</h1>
+
+  <div class="seccion">
+    <h2>¿Qué es PSeInt?</h2>
+    <p>
+      PSeInt es una herramienta educativa que permite aprender lógica de programación a través de pseudocódigo en español. Es ideal para principiantes.
+    </p>
+  </div>
+
+  <div class="seccion">
+    <h2>Objetivo de aprendizaje</h2>
+    <p>
+      Comprender la estructura básica de un algoritmo en PSeInt y desarrollar habilidades para resolver problemas simples con lógica computacional.
+    </p>
+  </div>
+
+  <div class="seccion">
+    <h2>Ejemplo 1: Sumar dos números</h2>
+    <p>Este algoritmo pide dos números al usuario y muestra la suma.</p>
+    <code>
+Proceso SumarNumeros<br>
+&nbsp;&nbsp;Definir num1, num2, suma Como Entero<br>
+&nbsp;&nbsp;Escribir "Ingrese el primer número:"<br>
+&nbsp;&nbsp;Leer num1<br>
+&nbsp;&nbsp;Escribir "Ingrese el segundo número:"<br>
+&nbsp;&nbsp;Leer num2<br>
+&nbsp;&nbsp;suma &lt;- num1 + num2<br>
+&nbsp;&nbsp;Escribir "La suma es:", suma<br>
+FinProceso
+    </code>
+  </div>
+
+  <div class="seccion">
+    <h2>Ejemplo 2: Verificar si un número es par</h2>
+    <code>
+Proceso VerificarPar<br>
+&nbsp;&nbsp;Definir numero Como Entero<br>
+&nbsp;&nbsp;Escribir "Ingrese un número:"<br>
+&nbsp;&nbsp;Leer numero<br>
+&nbsp;&nbsp;Si numero MOD 2 = 0 Entonces<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Escribir "El número es par"<br>
+&nbsp;&nbsp;SiNo<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Escribir "El número es impar"<br>
+&nbsp;&nbsp;FinSi<br>
+FinProceso
+    </code>
+  </div>
+
+  <div class="seccion">
+    <h2>Actividad propuesta</h2>
+    <p>
+ </p>
+  </div>
+
+</body>
+</html>
